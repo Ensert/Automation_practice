@@ -11,3 +11,4 @@ browser = webdriver.Firefox(options=option)
 #browser.get('https://www.whatsmyua.info/')
 browser.get('https://intoli.com/blog/not-possible-to-block-chrome-headless/chrome-headless-test.html')
 time.sleep(100)
+#r

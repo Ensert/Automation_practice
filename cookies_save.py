@@ -8,4 +8,4 @@ time.sleep(60)
 pickle.dump(browser.get_cookies(), open('session', 'wb'))
 print('cookies saved')
 time.sleep(10)
-browser
+browserr

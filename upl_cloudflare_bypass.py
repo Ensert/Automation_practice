@@ -16,4 +16,4 @@ password = driver.find_element(By.XPATH, '//*[@id="root"]/div[9]/div/div/div[2]/
 password.send_keys('Aemua11111', Keys.ENTER)
 time.sleep(10)
 
-# no resolved yet
+# no resolved yetr
