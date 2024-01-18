@@ -10,7 +10,7 @@ driver.implicitly_wait(5)
 try:
     driver.get(url=url)
     search = driver.find_element(By.ID, "identifierId")
-    search.send_keys('zalupa konia', Keys.ENTER)
+    search.send_keys('some text', Keys.ENTER)
     expected_text ='Електронна адреса або номер телефону'
     actual_text = driver.find_element(By.XPATH, "//div[@class='aCsJod oJeWuf']").text
     time.sleep(5)

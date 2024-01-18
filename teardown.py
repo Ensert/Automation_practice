@@ -15,7 +15,7 @@ class TestGoogleLogin:
 
     def test_google_login_wright(self):
         search = self.driver.find_element(By.ID,"identifierId")
-        search.send_keys('zalupa konia', Keys.ENTER)
+        search.send_keys('some text', Keys.ENTER)
         expected_text ='Електронна адреса або номер телефону'
         actual_text = self.driver.find_element(By.XPATH, "//div[@class='aCsJod oJeWuf']").text
         time.sleep(5)
@@ -23,7 +23,7 @@ class TestGoogleLogin:
 
     def test_google_login_wrong(self):
         search = self.driver.find_element(By.ID,"identifierId")
-        search.send_keys('zalupa konia', Keys.ENTER)
+        search.send_keys('some text', Keys.ENTER)
         expected_text ='Електронна адреса або номер телефону'
         actual_text = self.driver.find_element(By.XPATH, "//div[@class='aCsJod oJeWuf']").text
         time.sleep(5)
